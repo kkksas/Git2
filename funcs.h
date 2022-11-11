@@ -4,5 +4,6 @@
 double Sum();
 void Sub();
 
+void Mul();
 #endif // FUNCS
 
