@@ -21,10 +21,10 @@ int main()
             Sub();
             break;
         case 3:
-            cout << "develop 3" << endl;
+            Div();
             break;
         case 4:
-            cout << "develop 4" << endl;
+            cout << "develop 3" << endl;
             break;
         default:
             cout << "We didn't find anything." << endl;
