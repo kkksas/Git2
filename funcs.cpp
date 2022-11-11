@@ -45,3 +45,12 @@ void Div()
 
     cout << a << " / " << b << " = " << a / b << endl;
 }
+void Mul(){
+    double a, b;
+    cout << "Enter a: ";
+    cin >> a;
+    cout << "Enter b: ";
+    cin >> b;
+    cout << a << " * " << b << " = " << a*b << endl;
+
+}

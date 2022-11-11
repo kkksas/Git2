@@ -24,7 +24,7 @@ int main()
             Div();
             break;
         case 4:
-            cout << "develop 3" << endl;
+            Mul();
             break;
         default:
             cout << "We didn't find anything." << endl;
