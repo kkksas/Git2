@@ -1,8 +1,9 @@
 #ifndef FUNCS
 #define FUNCS
 
-double Sum();
+void Sum();
 void Sub();
+void Div();
 
 #endif // FUNCS
 
