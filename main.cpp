@@ -14,10 +14,20 @@ int main()
     cin >> choose;
     switch(choose)
     {
-        case 1: cout << "develop 1";
-        case 2: cout << "develop 2";
-        case 3: cout << "develop 3";
-        case 4: cout << "develop 4";
+        case 1:
+            cout << "develop 1";
+            break;
+        case 2:
+            cout << "develop 2";
+            break;
+        case 3:
+            cout << "develop 3";
+            break;
+        case 4:
+            cout << "develop 4";
+            break;
+        default:
+            cout << "We didn't find anything.";
     }
     system("pause");
     return 0;
