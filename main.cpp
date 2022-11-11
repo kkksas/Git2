@@ -1,4 +1,5 @@
 #include <iostream>
+#include "funcs.h"
 
 using namespace std;
 
@@ -15,19 +16,19 @@ int main()
     switch(choose)
     {
         case 1:
-            cout << "develop 1";
+            cout << "develop 1" << endl;
             break;
         case 2:
-            cout << "develop 2";
+            Sub();
             break;
         case 3:
-            cout << "develop 3";
+            cout << "develop 3" << endl;
             break;
         case 4:
-            cout << "develop 4";
+            cout << "develop 4" << endl;
             break;
         default:
-            cout << "We didn't find anything.";
+            cout << "We didn't find anything." << endl;
     }
     system("pause");
     return 0;
