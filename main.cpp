@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "funcs.h"
 using namespace std;
 
 int main()
@@ -15,7 +15,7 @@ int main()
     switch(choose)
     {
         case 1:
-            cout << "develop 1";
+            Sum();
             break;
         case 2:
             cout << "develop 2";
