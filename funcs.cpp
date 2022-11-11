@@ -1,3 +1,4 @@
+#include <iostream>
 #include "funcs.h"
 #include <iostream>
 using namespace std;
@@ -13,3 +14,13 @@ double Sum()
     return a+b;
 }
 
+void Sub()
+{
+    double a, b;
+    cout << "Enter a: ";
+    cin >> a;
+    cout << "Enter b: ";
+    cin >> b;
+//    cout << a - b;
+    cout << a << " - " << b << " = " << a - b << endl;
+}
